@@ -1,0 +1,25 @@
+:root {
+	--primary-color: #424874;
+	--secondary-color: #a6b1e1;
+	--light-color: #dcd6f7;
+	--lighter-color: #f4eeff;
+	--gray-color: #393e46;
+	--black-color: #222831;
+	--white-color: #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	font-weight: normal;
+}
+
+body {
+	background-color: var(--lighter-color);
+}
+
+textarea {
+	color: white !important;
+}
